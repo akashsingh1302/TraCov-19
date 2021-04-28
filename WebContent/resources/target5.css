@@ -1,0 +1,34 @@
+path:hover{
+  cursor: pointer;
+  fill: red;
+}
+path{
+	fill: #ADD8E6;
+	stroke: black;
+}
+#right{
+	position: absolute;
+	top: 15%;
+	right: 20%;
+	width: 20%;
+	height: 25%;
+}
+.inv{
+	opacity: 0.6;
+}
+.selected{
+	fill: red;
+	stroke: black;
+}
+.Zone1{
+	fill:#ffcccb;
+}
+.Zone2{
+	fill:#8b0000;
+}
+.Zone3{
+	fill:#ffffba;
+}
+.Zone4{
+	fill:#90ee90;
+}

@@ -1,0 +1,15 @@
+path:hover{
+  cursor: pointer;
+  fill: grey;
+}
+path{
+	fill: #ADD8E6;
+	stroke: black;
+}
+#right{
+	position: absolute;
+	top: 15%;
+	right: 20%;
+	width: 10%;
+	height: 25%;
+}

@@ -1,0 +1,166 @@
+a{
+      text-decoration:none;
+   }
+body{
+  width: 100%;
+  height: 100%;
+}
+#load{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+#logoimg{
+	width: 100%;
+	height: 100%;
+}
+#title{
+  position: absolute;
+  width: 15%;
+  top: 5%;
+  height: 15%;
+  left: 5%;
+  text-align: center;
+  font-size: 3vw;
+  font-family:Fantasy;
+  color: #f37175; 
+}
+#logo{
+  position: absolute;
+  width: 15%;
+  top: 35%;
+  height: 28%;
+  left: 45%;
+  text-align: center;
+  font-size: 5vw;
+  font-family:Optima;
+}
+#loading{
+  position: absolute;
+  top: 70%;
+  width: 35%;
+  height: 20%;
+  left: 35%;
+  font-size: 2vw;
+  text-align: center;
+  font-family: Fantasy;
+  color: #f37175;
+}
+
+#logo2{
+  position: absolute;
+  width: 6%;
+  top: 3%;
+  height: 10%;
+  left: 1.55%;
+  text-align: center;
+  font-size: 5vw;
+  font-family:Arial;
+}
+#logoimg2{
+	width: 100%;
+	height: 100%;
+}
+#topBar{
+	position: absolute;
+	left: 20%;
+	top: 0%;
+	width: 80%;
+	height: 13%;
+    border-bottom: 1px solid #658ed3;
+}
+#gompertz{
+	position: absolute;
+	left: 8%;
+	color: #f37175;
+}
+#logistic{
+	position: absolute;
+	left: 31%;
+}
+
+#bertalanffy{
+	position: absolute;
+	left: 54%;
+}
+#map{
+	position: absolute;
+	left: 77%;
+}
+#leftBar{
+	position: absolute;
+	left: 0%;
+	top: 13%;
+	width: 20%;
+	height: 87%;
+	border-right: 1px solid #658ed3;
+}
+.navBtns{
+	position: absolute;
+	width: 20%;
+	height: 50%;
+	top: 50%;
+	border: 1px solid black;
+	font-size: 2vw;
+	text-align: center;
+	font-family: Fantasy;
+	color: #f37175;
+	border-bottom: 0px solid white;
+}
+.details{
+	position: relative;
+	width: 80%;
+	left: 10%;
+	top: 25%;
+	height: 8%;
+	text-align: center;
+	font-size: 1.5vw;
+	color: #f37175;
+	font-family: Fantasy;
+}
+#svg2{
+	height: 100%;
+	width: 100%;
+}
+#center{
+	position: absolute;
+	left: 20%;
+	top: 13%;
+	width: 80%;
+	height: 87%;
+}
+
+path:hover{
+  cursor: pointer;
+  fill: red;
+}
+path{
+	fill: #658ed3;
+	stroke: black;
+}
+.inv{
+	opacity: 0.4;
+}
+.selected{
+	fill: red;
+	stroke: black;
+}
+.Zone1{
+	fill:#ffcccb;
+}
+.Zone2{
+	fill:#8b0000;
+}
+.Zone3{
+	fill:#ffffba;
+}
+.Zone4{
+	fill:#90ee90;
+}
+#container{
+	position: absolute;
+	left: 25%;
+	top: 10%;
+	height: 90%;
+	width: 65%;
+}
